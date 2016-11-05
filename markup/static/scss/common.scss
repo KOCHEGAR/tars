@@ -1,22 +1,12 @@
 // Common styles of the project
 
-html, body {
-    height: 100%;
-}
+.body{
+  display: flex;
+  flex-direction: column;
 
-.page {
-    
-}
-
-.page__wrapper {
-    min-height: 100%;
-    margin-bottom: -50px;
-}
-
-* html .page__wrapper {
-    height: 100%;
-}
-
-.page__buffer {
-    height: 50px;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.42;
+  position: relative;
 }
