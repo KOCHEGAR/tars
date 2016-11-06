@@ -1,2 +1,33 @@
 // GUI stylies of the project
 // For example, styles of the links, buttons and so on.
+
+// my default settings -start
+.btn{
+  outline: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+$linkColor: red;
+
+a,a:hover {
+  text-decoration: none;
+}
+
+a{
+  color: $linkColor;
+}
+
+a:hover{
+   color: darken($linkColor, 40%);
+}
+
+// my default settings -end
+
+// project specified settings -start
+
+
+
+// project specified settings -end

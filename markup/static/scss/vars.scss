@@ -1,2 +1,43 @@
 // File for scss-vars.
 // For example: main colors, paddings and so on.
+
+
+
+
+// my default vars -start
+
+$ss-fonts: "Arial", "Helvetica Neue", "Helvetica" , sans-serif;
+$s-fonts: "Times New Roman", "Times", serif;
+
+// font-weight's -start
+$thin:100;
+$light:300;
+$regular:400;
+$medium:500;
+$bold:700;
+$boldblack:900;
+
+// font-weight's -end
+
+$italic: italic;
+
+$base-lh:1.42;
+
+// colors -start
+
+// $bd: #bdbdbd;
+// $c-75: #757575;
+// $c-21: #212121;
+// $shadeOfPink: #ff4081;
+
+// colors -end
+
+$delay: 0.3s ease;
+
+// my default vars -end
+
+// project specified vars -start
+
+
+
+// project specified vars -end
