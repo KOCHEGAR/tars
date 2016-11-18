@@ -19,9 +19,7 @@
         clear: both;
     }
 
-    .lt-ie8 & {
-        zoom: 1;
-    }
+    
 }
 
 @mixin blocks-justify {
@@ -44,7 +42,7 @@
 
 @mixin hamburger(
   $color: $black,
-  $color-hover: $dark-gray,
+  $color-hover: $red,
   $width: 20px,
   $height: 16px,
   $weight: 2px,
@@ -101,7 +99,7 @@
 
 
 @mixin cross(
-  $bg-color: black, 
+  $bg-color: $black, 
   $bg-color-hover: null,
   $width: 30px, 
   $height: 30px, 
@@ -224,3 +222,16 @@
         src: $src;
     }
 }
+
+@mixin abs-size{
+
+  position: absolute;
+  top:0;left:0;right:0;bottom:0;
+}
+
+
+
+// @mixin desktop { @media screen and (min-width: 1200px) {@content;} }
+// @mixin laptop { @media screen and (min-width: 992px) {@content;} }
+// @mixin tablet { @media screen and (min-width: 768px) {@content;} }
+// @mixin phone { @media screen and (min-width: 480px) {@content;} }
