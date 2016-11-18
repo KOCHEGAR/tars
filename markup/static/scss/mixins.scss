@@ -231,7 +231,11 @@
 
 
 
-// @mixin desktop { @media screen and (min-width: 1200px) {@content;} }
-// @mixin laptop { @media screen and (min-width: 992px) {@content;} }
-// @mixin tablet { @media screen and (min-width: 768px) {@content;} }
-// @mixin phone { @media screen and (min-width: 480px) {@content;} }
+// @mixin desktop { @media screen and (min-width: 75em) {@content;} } /* 1200px */
+// @mixin laptop { @media screen and (min-width: 62em) {@content;} } /* 992px */
+// @mixin tablet { @media screen and (min-width: 48em) {@content;} } /* 768px */
+// @mixin phone { @media screen and (min-width: 30em) {@content;} } /* 480px */
+
+@function rem($px) {
+  @return $px / 16px + 0rem;
+}
